@@ -1,0 +1,5 @@
+f=open("abc.text","rt")
+# print(f.read(),end="")
+print(f.readline(),end="")
+print(f.readline())
+print(f.readlines(),end="")
